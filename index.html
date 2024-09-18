@@ -16,7 +16,8 @@
             border: 5px solid white;
             width: 90%;
             min-height: 90vh;
-            border-radius: 15px;
+            max-height: 90vh;
+            border-radius: 25px;
             margin-left: 5%;
             display: flex;
             flex-direction: column;
@@ -24,24 +25,30 @@
             align-items: center;
             overflow: hidden;
         }
+        .contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         .foto{
-            background-color: lightcoral;
             width: 600px;
-            height: 350px;
-            margin: 5px;
-            border: 1px solid black;
+            height: 40vh;
+            margin: 1vh;
+            border: 1px solid rgba(0, 0, 0, 0.549);
             background-image: url(Screenshot_20220621_161953_com.whatsapp.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             border-radius: 25px;
+            box-shadow: 0 0 10px 0;
         }
         .texto{
-            background-color: lightsalmon;
-            width: 600px;
-            height: 350px;
-            border: 1px solid black;
-            margin: 5px;
+            background-color: rgb(86, 255, 232);
+            width: 300px;
+            height: fit-content;
+            border: 1px solid rgba(86, 255, 232, 0.496);
+            margin: 1vh;
             border-radius: 25px;
+            box-shadow: 3px 3px 10px 0;
         }
         h1{
             text-align: justify;
@@ -52,13 +59,20 @@
     </style>
 </head>
 <body>
-
+    
     <div class="general">
+        <div class="contenedor">
+            <div class="foto">
+            </div>
+            <div class="texto">
+                <h1>ARRIBA EL HIJO DE SU PERRA MADRE PINCHE BELLO HERMOSO
+                E IRREVERENTE EQUIPO DE MIS PODEROSISIMAS CHIVAS RAYADAS DEL
+                GUADALAJARA SI SEÑOR, Y SI DICES LO CONTRARIO ERES GAY</h1>
+            </div>
+        </div>
 
         <div class="contenedor">
-
             <div class="foto">
-
             </div>
             <div class="texto">
                 <h1>ARRIBA EL HIJO DE SU PERRA MADRE PINCHE BELLO HERMOSO
